@@ -1,0 +1,16 @@
+body {
+
+background: #ff4000; 
+ display: inline;
+
+}
+
+img {
+  display :block; /*this overideds th einline styling of images for the iuser agent stylesheet */
+}
+
+#top{
+
+  text-declaration : underline;
+
+}
