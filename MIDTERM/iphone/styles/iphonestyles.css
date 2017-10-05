@@ -1,0 +1,83 @@
+body {
+	background-color: #d3d3d3;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 18px;
+
+
+}
+
+input {
+	border:none;
+	caret-color:#7acc00;
+}
+
+input:focus{
+	outline:none;
+}
+a{
+	color:#7acc00;
+	text-decoration: none;
+}
+p{
+	text-align:center;
+}
+#mega-box {
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+}
+#big-box {
+	font-family: Arial, Verdana, sans-serif;
+	width: 365px;
+	height: 600px;
+	background-color:#fff;
+	border: solid 2px;
+	display: flex;
+		-webkit-box-align:center;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+}
+
+.lil-box {
+	align-content: center;
+	font-family: "Arial";
+	font-size: 26px;
+}
+
+.top-part img{
+	display:block;
+	margin:auto;
+	width:50%;
+
+}
+
+.input-part{
+	padding:15px;
+}
+.id-box, .pass-box {
+	font-family: Arial;
+	font-size: 12px;
+	color:#737373;
+	height: 30px;
+	padding: 8px 8px 0px 8px;
+}
+.id-box {
+	border:solid 0.5px #d3d3d3;
+	border-bottom:none;
+	border-top-left-radius:15px 15px;
+	border-top-right-radius: 15px 15px;
+}
+.pass-box {
+	border:solid 0.5px #d3d3d3;
+	border-bottom-left-radius:15px 15px;
+	border-bottom-right-radius:15px 15px;
+}
+.input-label {
+	font-weight: bold;
+}

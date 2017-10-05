@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!--
+@author: Harrison Womack
+Broswer: FireFox
+Issues: had squareNumber misspelled in the first function, had some problems in the alotOfFunctions functions with the percentOf partion, had some problems with .toFixed because of spelling.
+-->
+<html>
+<head>
+	<title>JS Basic</title>
+	<meta charset="UTF-8">
+	
+</head>
+<body>
+	<p>JavaScript functions</p>
+	<script>
+	//This function runs the squareNumber.
+	squareNumber(3);
+
+	function squareNumber(num) {
+		var squareNumber = num * num;
+		console.log('The result of squaring the number ' + num + ' is ' + squareNumber);
+		return squareNumber;
+	}
+
+	//This function runs the halfNumber.
+	halfNumber(5);
+
+	function halfNumber(num) {
+		var half = num / 2;
+		console.log('Half of ' + num + ' is ' + half);
+		return half;
+	}
+
+	//This function runs the percentOf.
+	percentOf(5, 10);
+
+	function percentOf(num1, num2) {
+		var percent = (num1/num2) * 100;
+		console.log(num1 + ' is ' + percent + '% of ' + num2);
+		return percent;
+	}
+
+	//this function runs the areaOfCircle.
+	areaOfCircle(2);
+
+	function areaOfCircle(radius) {
+		var area = Math.PI * squareNumber(radius);
+		console.log('The area of circle with radius ' + radius + ' is ' + area.toFixed(2));
+		return area;
+	}
+
+	//this funtion runs the alotOfFunctions
+	alotOfFunctions(3)
+	
+	function alotOfFunctions(num) {
+		var halfNumber = num / 2;
+		console.log('Half of ' + num + ' is ' + halfNumber);
+		
+		var squareNumber = halfNumber * halfNumber;
+		console.log('The result of squaring the number ' + halfNumber + ' is ' + squareNumber);
+		
+		var area = Math.PI * squareNumber;
+		console.log('The area of the circle with radius ' + squareNumber + ' is ' + area.toFixed(2));
+		
+		var percentOf = (squareNumber/area) * 100;
+		console.log(area.toFixed(2) + ' is ' + percentOf.toFixed(2) + '% of ' + squareNumber);
+	
+	}
+	</script>
+</body>
+</html>
